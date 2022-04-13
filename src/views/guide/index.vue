@@ -8,6 +8,9 @@
     <el-button icon="el-icon-question" type="primary" @click.prevent.stop="guide">
       Show Guide
     </el-button>
+    <el-button type="primary" @click.prevent.stop="guide">
+      新增
+    </el-button>
     <div>
         <el-table :data="tableData" border style="width: 100%;margin-top:30px;" size='mini'>
             <el-table-column prop="date" label="日期" width="180"></el-table-column>
